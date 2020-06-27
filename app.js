@@ -7,7 +7,7 @@ let formatDate = today.toLocaleDateString();
 let selectElement = document.getElementById('date');
 selectElement.innerHTML = formatDate;
 
-console.log('Here\'s a hidden messahe' );
+console.log('Here\'s a hidden message' );
 
 // This is a single-line comment.
 
