@@ -3,7 +3,7 @@
 
 
 let today = new Date();
-let formatDate = today.toDateString();
+let formatDate = today.toLocaleDateString();
 let selectElement = document.getElementById('date');
 selectElement.innerHTML = formatDate;
 
